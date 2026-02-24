@@ -8,7 +8,7 @@ cat server.log  | wc -l
 
 As we can see, invetigating this file can be a pain so how do we solve this
 
-so we can search up things and see what we can find:
+so we can search up things and see what we can find the flag:<br>
 we can use fail, sucess, flag and many more so i will skip to the chasse and see which will work :
 
 
