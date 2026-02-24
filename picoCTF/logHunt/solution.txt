@@ -1,31 +1,5 @@
-we can first look at this log file and see if its large (not worth looking for word for word )or small 
+we can first look at this log file and see if its large (not worth looking for word for word )or small
 
 ```bash
 cat server.log | wc -l
 2348
-```
-
-
-
-As we can see, invetigating this file can be a pain so how do we solve this.
-so we can search up things and see what we can find:
-we can use fail, sucess, flag and many more so i will skip to the chasse and see which will work :
-
-
-
-```bash
-cat server.log  | grep -i "flag" | cut -d ':' -f4 | sort | uniq
-
- cedfa5fb}
- picoCTF{us3_
- sk1lls_
- y0urlinux_
-```
-
-if we reconstruct our flag we get this:
-
-```bash
-picoCTF{us3_y0urlinux_sk1lls_cedfa5fb}
-```
-
-Nice huh!!!
