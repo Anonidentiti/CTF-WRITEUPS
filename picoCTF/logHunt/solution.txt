@@ -1,5 +1,4 @@
 we can first look at this log file and see if its large (not worth looking for word for word )or small
-
 ```bash
 cat server.log | wc -l
 2348
