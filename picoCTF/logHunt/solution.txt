@@ -2,4 +2,5 @@ we can first look at this log file and see if its large (not worth looking for w
 
 ```bash
 cat server.log | wc -l
-2348```
+2348
+```
