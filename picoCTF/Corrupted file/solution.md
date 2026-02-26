@@ -25,7 +25,7 @@ JFIF
 ```
 
 The JFIF does say sth about this file<br>
-when check out what JFIF is, you find out that a JFIF (JPEG File Interchange Format)<br> is a image standard that will later be used as jpg or jpeg <br>
+when check out what JFIF is, you find out that a JFIF (JPEG File Interchange Format)<br> is a image standard that will later be used for jpg or jpeg <br>
 what does that say? <br>
 
 we need to know the hex used and see if it follows the official image formats needed
@@ -43,6 +43,9 @@ FF D8 FF E0 00 10 4A 46 49 46 00 01
 ``` 
 that says sth about this. if the first two bytes dont follow that rule then you can change where necessary <br>
 
+```bash
+hexedit file
+```
 In this case we have: <br>
 
 ```bash
@@ -51,4 +54,15 @@ In this case we have: <br>
 
 see the first two bytes of the hex ?
 
-we have to change it and use the template posted earlier
+we have to change it and use the template posted earlier <br>
+
+
+now thats done!
+
+if we click the file we can get our flag back <br> 
+
+
+FLAG:
+```bash
+picoCTF{r3st0r1ng_th3_by73s_939a65f5}
+```
