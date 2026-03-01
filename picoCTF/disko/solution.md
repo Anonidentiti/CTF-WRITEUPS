@@ -65,3 +65,13 @@ v/v 1612677:    $FAT2
 V/V 1612678:    $OrphanFiles
 ```
 what a big file
+
+CHEAT:<br>
+we can use string and grep:<br>
+```bash
+strings disko-1.dd | grep -i "picoctf"
+picoCTF{1t5_ju5t_4_5tr1n9_e3408eef}
+```
+
+but in an actual forensics you will need to be able to use ftk imager and autopsy to investigate the file <br> 
+you will need to be able to find available and deleted files > extract the ones you need > preserve them (IMPORTANT)
